@@ -1,0 +1,8 @@
+{
+  "name": "patchbay",
+  "version": "0.1.0",
+  "description": "Make, edit and check your app's page on Patchbay, the app store for apps made with AI, right from your project. No login: your repo is the proof.",
+  "author": { "name": "Patchbay" },
+  "homepage": "https://patchbay-sage.vercel.app/claude",
+  "keywords": ["patchbay", "app store", "store page", "screenshots", "vibe coding"]
+}

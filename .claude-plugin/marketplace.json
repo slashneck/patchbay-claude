@@ -1,0 +1,11 @@
+{
+  "name": "patchbay",
+  "owner": { "name": "Patchbay" },
+  "plugins": [
+    {
+      "name": "patchbay",
+      "source": "./",
+      "description": "Make, edit and check your app's page on Patchbay, the app store for apps made with AI."
+    }
+  ]
+}
