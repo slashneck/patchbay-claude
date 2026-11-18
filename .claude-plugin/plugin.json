@@ -1,8 +1,8 @@
 {
   "name": "patchbay",
-  "version": "0.1.1",
-  "description": "Make, edit and check your app's page on Patchbay, the app store for apps made with AI, right from your project. No login: your repo is the proof.",
+  "version": "0.2.0",
+  "description": "Make, edit and check your app's page on Patchbay, the app store for apps made with AI, and make its store video, right from your project. No login: your repo is the proof.",
   "author": { "name": "Patchbay" },
   "homepage": "https://patchbayapps.com/claude",
-  "keywords": ["patchbay", "app store", "store page", "screenshots", "vibe coding"]
+  "keywords": ["patchbay", "app store", "store page", "screenshots", "store video", "vibe coding"]
 }

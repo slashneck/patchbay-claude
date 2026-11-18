@@ -12,9 +12,10 @@ This plugin lets you make that page **from inside Claude Code**, without opening
 | --- | --- |
 | **"Make my Patchbay page"** | Claude reads your project and writes the name, a one-line pitch and the category. It makes a thumbnail, an icon and 3 to 6 store screenshots, picks which file your Download button gives, and shows you a preview. Nothing is published until you say yes. |
 | **"Edit my Patchbay page"** | Change anything in your own words: "shorter pitch", "new screenshots", "Download should give the zip". You see it again before it's published. |
+| **"Make a store video"** | Claude asks a few questions first (explainer or short, your song file, which voice), writes the script for your OK, records your real app with demo content, and builds the video with captions, music and an end card. You get the video plus a title and description to post it with. It goes on your page only after you say yes. |
 | **"Show my Patchbay feedback"** | Your newest comments, star rating, followers and download numbers, plus a short note on what people like and ask for. |
 
-The plugin only handles the **page**. It never builds your app, changes your code, or makes GitHub releases. New versions show up on Patchbay by themselves when you publish a release on GitHub.
+The plugin only handles the **page** and its **video**. It never builds your app, changes your code, or makes GitHub releases. New versions show up on Patchbay by themselves when you publish a release on GitHub.
 
 ## Install
 

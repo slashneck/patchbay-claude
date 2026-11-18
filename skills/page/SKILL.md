@@ -7,7 +7,7 @@ description: Make or edit this project's page on Patchbay (patchbayapps.com), th
 
 Patchbay is an app store for apps made with AI. Every app lives on its maker's GitHub; Patchbay shows it as a clean store page with downloads from the repo's GitHub Releases.
 
-Your job here is only the **page**: its words, its pictures, and which file the Download button gives. You do NOT build the app, bump versions, change app code, or create GitHub releases. If the user wants that, it's a separate task.
+Your job here is only the **page**: its words, its pictures, and which file the Download button gives. You do NOT build the app, bump versions, change app code, or create GitHub releases. If the user wants that, it's a separate task. A store video is made by the `video` skill; when the user asks for one, use that.
 
 **How it works (no login):** you write a small `.patchbay/` folder into the repo (`page.json` + pictures), push it, then ask Patchbay to read it. Patchbay fetches the file from GitHub itself. Only people who can push to the repo can change it, so that is the proof of ownership. Never ask the user for a Patchbay login, password or key: there is none.
 
@@ -40,7 +40,8 @@ Read the README, the package/manifest files and the code enough to understand wh
   "signing": "",
   "icon": "icon.png",
   "thumbnail": "thumbnail.png",
-  "screenshots": ["1-notes.png", "2-export.png", "3-settings.png"]
+  "screenshots": ["1-notes.png", "2-export.png", "3-settings.png"],
+  "video": "video.mp4"
 }
 ```
 
@@ -57,6 +58,7 @@ Rules (Patchbay refuses the page otherwise):
 - `web_app`: only if the app also runs in the browser; must start with `https://`. Otherwise leave empty.
 - `signing`: only if the user tells you how the app is code-signed (shown as "Maker says"). Never guess. Usually empty.
 - `icon`, `thumbnail`, `screenshots`: plain file names inside `.patchbay/` (letters, numbers, `.`, `-`, `_`), `.png`, `.jpg` or `.webp`. Up to 8 screenshots, best first. No links to other websites.
+- `video`: optional, one per app. Either a YouTube link, or the file name of an `.mp4` or `.webm` inside `.patchbay/` (at most 50 MB; Patchbay plays it from GitHub with its own player). Compress a bigger video first, for example: `ffmpeg -i in.mp4 -vf scale=-2:1080 -c:v libx264 -crf 26 -preset slow -c:a aac -b:a 128k -movflags +faststart .patchbay/video.mp4`. Leave the key out to keep the page's current video; set it to `""` to remove it.
 
 ## 3. Make the pictures
 
