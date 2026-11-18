@@ -1,6 +1,6 @@
 ---
 name: page
-description: Make or edit this project's page on Patchbay (patchbay-sage.vercel.app), the app store for apps made with AI. Use when the user says "make my Patchbay page", "put this on Patchbay", "list/upload this to Patchbay", "edit/update my Patchbay page", "change my pitch/screenshots/category on Patchbay", or "make store pictures for Patchbay". Writes .patchbay/page.json and the store pictures into the repo, shows a preview, pushes after a yes, then tells Patchbay to update the page. It never builds the app, changes app code, or makes GitHub releases.
+description: Make or edit this project's page on Patchbay (patchbayapps.com), the app store for apps made with AI. Use when the user says "make my Patchbay page", "put this on Patchbay", "list/upload this to Patchbay", "edit/update my Patchbay page", "change my pitch/screenshots/category on Patchbay", or "make store pictures for Patchbay". Writes .patchbay/page.json and the store pictures into the repo, shows a preview, pushes after a yes, then tells Patchbay to update the page. It never builds the app, changes app code, or makes GitHub releases.
 ---
 
 # Patchbay page
@@ -11,7 +11,7 @@ Your job here is only the **page**: its words, its pictures, and which file the 
 
 **How it works (no login):** you write a small `.patchbay/` folder into the repo (`page.json` + pictures), push it, then ask Patchbay to read it. Patchbay fetches the file from GitHub itself. Only people who can push to the repo can change it, so that is the proof of ownership. Never ask the user for a Patchbay login, password or key: there is none.
 
-Patchbay address: `https://patchbay-sage.vercel.app` (below: `$PB`). Patchbay is in early access (beta) and this address will change to a proper domain later. If it stops answering, tell the user to update the plugin (`/plugin marketplace update patchbay`).
+Patchbay address: `https://patchbayapps.com` (below: `$PB`). Patchbay is in early access (beta). If it stops answering, tell the user to update the plugin (`/plugin marketplace update patchbay`).
 
 Talk to the user in plain, friendly words. Many makers are not coders.
 

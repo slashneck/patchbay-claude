@@ -1,6 +1,6 @@
 ---
 name: feedback
-description: Show what people say about this project's app on Patchbay (patchbay-sage.vercel.app), the app store for apps made with AI. Use when the user says "show my Patchbay feedback", "any new comments/reviews on Patchbay?", "how is my app doing on Patchbay", "my Patchbay ratings/downloads". Reads public data only; changes nothing.
+description: Show what people say about this project's app on Patchbay (patchbayapps.com), the app store for apps made with AI. Use when the user says "show my Patchbay feedback", "any new comments/reviews on Patchbay?", "how is my app doing on Patchbay", "my Patchbay ratings/downloads". Reads public data only; changes nothing.
 ---
 
 # Patchbay feedback
@@ -8,7 +8,7 @@ description: Show what people say about this project's app on Patchbay (patchbay
 1. Find the repo: `gh repo view --json nameWithOwner` (or `git remote get-url origin`). If the user names another repo (owner/name), use that.
 2. Fetch:
    ```
-   curl -s "https://patchbay-sage.vercel.app/api/feedback?repo=OWNER/NAME"
+   curl -s "https://patchbayapps.com/api/feedback?repo=OWNER/NAME"
    ```
    A 404 means the repo has no Patchbay page yet: offer to make one (the `page` skill of this plugin).
 3. Show a short, friendly summary:

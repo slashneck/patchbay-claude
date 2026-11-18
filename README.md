@@ -1,8 +1,8 @@
 # Patchbay for Claude
 
-> **Early access (beta).** Patchbay and this plugin are brand new and still changing. Expect rough edges. Patchbay currently lives at **https://patchbay-sage.vercel.app**, and **that address will change** to a proper domain later. When it does, update the plugin and everything keeps working.
+> **Early access (beta).** Patchbay and this plugin are brand new and still changing. Expect rough edges. Patchbay lives at **https://patchbayapps.com**.
 
-[Patchbay](https://patchbay-sage.vercel.app) is an app store for apps made with AI. Every app lives on its maker's GitHub, and Patchbay turns it into one clean store page: what it does, screenshots, patch notes from your releases, download buttons for each system, and honest safety facts.
+[Patchbay](https://patchbayapps.com) is an app store for apps made with AI. Every app lives on its maker's GitHub, and Patchbay turns it into one clean store page: what it does, screenshots, patch notes from your releases, download buttons for each system, and honest safety facts.
 
 This plugin lets you make that page **from inside Claude Code**, without opening the website.
 
