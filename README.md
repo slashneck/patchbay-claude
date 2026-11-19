@@ -6,6 +6,10 @@
 
 This plugin lets you make that page **from inside Claude Code**, without opening the website.
 
+[![Watch: Patchbay in 80 seconds](https://patchbayapps.com/video/patchbay-poster.jpg)](https://patchbayapps.com/video/patchbay-explainer.mp4)
+
+*Watch: what Patchbay is and how your agent puts your app on it (80 s).*
+
 ## What you can say
 
 | Say | What happens |
@@ -47,6 +51,17 @@ There's no Patchbay account, password or key in this plugin. Claude saves a smal
 Patchbay then reads that folder straight from GitHub. Only people who can push to your repo can put it there, so it proves the app is yours. Your pictures stay on your GitHub; Patchbay just shows them.
 
 You can still edit your page on the website after signing in with GitHub. The newest change wins.
+
+## What data goes where
+
+- **To Patchbay** (patchbayapps.com): only your **public** repo's name, so Patchbay can read the `.patchbay/` folder from GitHub. For feedback, it reads Patchbay's public feedback for that repo. Nothing else, no telemetry.
+- **To GitHub**: only the `.patchbay/` folder (page details, pictures, an optional video) is committed and pushed, and **only after you say yes** to the preview. Your code is never changed.
+- **No accounts, no keys, no passwords** are asked for or stored. The plugin uses the GitHub access your machine already has.
+- Store videos are made on your own computer. Nothing is uploaded until you approve it.
+
+## Contact
+
+Questions, bugs or a security problem: open an issue on this repository.
 
 ## Safety
 
