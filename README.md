@@ -61,7 +61,7 @@ You can still edit your page on the website after signing in with GitHub. The ne
 
 ## Contact
 
-Questions, bugs or a security problem: open an issue on this repository.
+Questions or bugs: open an issue on this repository, or write to **patchbayapps@gmail.com**. Security problems: please email instead of opening a public issue.
 
 ## Safety
 
