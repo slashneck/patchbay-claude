@@ -43,7 +43,7 @@ There's no Patchbay account, password or key in this plugin. Claude saves a smal
 ```
 .patchbay/
   page.json       (about 10 lines: name, pitch, category, which download, picture names)
-  icon.png
+  app-icon.png
   thumbnail.png
   1-notes.png ...
 ```

@@ -38,7 +38,7 @@ Read the README, the package/manifest files and the code enough to understand wh
   "download": "installer",
   "web_app": "",
   "signing": "",
-  "icon": "icon.png",
+  "icon": "app-icon.png",
   "thumbnail": "thumbnail.png",
   "screenshots": ["1-notes.png", "2-export.png", "3-settings.png"],
   "video": "video.mp4"
