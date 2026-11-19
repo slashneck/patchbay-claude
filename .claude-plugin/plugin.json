@@ -2,7 +2,20 @@
   "name": "patchbay",
   "version": "0.2.0",
   "description": "Make, edit and check your app's page on Patchbay, the app store for apps made with AI, and make its store video, right from your project. No login: your repo is the proof.",
-  "author": { "name": "Patchbay" },
+  "author": {
+    "name": "Patchbay",
+    "email": "patchbayapps@gmail.com",
+    "url": "https://patchbayapps.com"
+  },
   "homepage": "https://patchbayapps.com/claude",
-  "keywords": ["patchbay", "app store", "store page", "screenshots", "store video", "vibe coding"]
+  "repository": "https://github.com/slashneck/patchbay-claude",
+  "license": "MIT",
+  "keywords": [
+    "patchbay",
+    "app store",
+    "store page",
+    "screenshots",
+    "store video",
+    "vibe coding"
+  ]
 }
