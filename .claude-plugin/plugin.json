@@ -10,6 +10,7 @@
   "homepage": "https://patchbayapps.com/claude",
   "repository": "https://github.com/slashneck/patchbay-claude",
   "license": "MIT",
+  "privacyPolicyUrl": "https://patchbayapps.com/privacy",
   "keywords": [
     "patchbay",
     "app store",
