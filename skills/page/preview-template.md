@@ -1,3 +1,8 @@
+# Preview template
+
+Copy everything inside the code block below into a new file named `preview.html` (outside the repo), then fill it in as SKILL.md says.
+
+````html
 <!doctype html>
 <html lang="en">
 <head>
@@ -80,3 +85,4 @@
 </script>
 </body>
 </html>
+````

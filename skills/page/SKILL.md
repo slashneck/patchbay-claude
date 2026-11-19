@@ -78,7 +78,7 @@ How you capture the app is up to you (run it and screenshot it, or render its UI
 
 ## 4. Show a preview and wait for a yes
 
-1. Make a preview outside the repo: copy `preview.html` from this skill's folder into a new temp folder, and replace `__PAGE_JSON__` with the contents of page.json and `__PICTURES__` with the full `file:///` path of the repo's `.patchbay/` folder (forward slashes, ending in `/`). Open it in the browser (or describe it if you can't).
+1. Make a preview outside the repo: copy the HTML from `preview-template.md` in this skill's folder into `preview.html` in a new temp folder, and replace `__PAGE_JSON__` with the contents of page.json and `__PICTURES__` with the full `file:///` path of the repo's `.patchbay/` folder (forward slashes, ending in `/`). Open it in the browser (or describe it if you can't).
 2. Tell the user, briefly: name, pitch, category, which file the Download button will give (the actual file name from the newest release), and list the pictures.
 3. Ask: "Shall I put this on Patchbay? This commits the .patchbay folder to your repo and pushes it." **Do nothing more until they say yes.** If they want changes, make them and preview again.
 
