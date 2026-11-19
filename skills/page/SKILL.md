@@ -78,10 +78,10 @@ How you capture the app is up to you (run it and screenshot it, or render its UI
 
 ## 4. Show a preview and wait for a yes
 
-1. Make the preview outside the repo: copy the HTML from `preview-template.md` in this skill's folder into `preview.html` in a new temp folder, and replace `__PAGE_JSON__` with the contents of page.json and `__PICTURES__` with the full `file:///` path of the repo's `.patchbay/` folder (forward slashes, ending in `/`).
+1. Make the preview outside the repo: copy the HTML from `preview-template.md` in this skill's folder into `preview.html` in a new temp folder, and replace `__PAGE_JSON__` with the contents of page.json and `__PICTURES__` with the full `file:///` path of the repo's `.patchbay/` folder (forward slashes, ending in `/`), and `__OWNER__` with the GitHub owner.
 2. Turn it into a picture, because many app windows and preview panes can't open local files. Take a **full-page** screenshot of `preview.html` into `preview.png` in the same temp folder:
    - with a browser tool you have that can take full-page screenshots, or
-   - with headless Chrome or Edge: `<chrome or msedge> --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=8000 --window-size=1280,1400 --screenshot="<temp>/preview.png" "file:///<temp>/preview.html"` (on Windows Edge is usually `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`). If the bottom is cut off, take it again taller.
+   - with headless Chrome or Edge: `<chrome or msedge> --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=8000 --window-size=1280,900 --screenshot="<temp>/preview.png" "file:///<temp>/preview.html"` (on Windows Edge is usually `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`). The page is made to fit 1280x900; if the bottom is still cut off, take it again taller.
 3. **Look at the picture yourself** first: every picture loads, no broken images, no cut-off text. Fix and retake if needed. Then show it to the user (send or attach the image file, or give its full path). If no screenshot works, describe the page instead.
 4. Tell the user, briefly: name, pitch, category, which file the Download button will give (the actual file name from the newest release), and list the pictures.
 5. Ask: "Shall I put this on Patchbay? This commits the .patchbay folder to your repo and pushes it." **Do nothing more until they say yes.** If they want changes, make them and preview again.
